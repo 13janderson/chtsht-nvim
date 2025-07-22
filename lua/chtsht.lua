@@ -53,7 +53,6 @@ function Cache:cachedFilePath(path)
     return ret
 end
 
-
 local function open_sheet(path)
     vim.cmd("vnew")
     vim.cmd("setlocal buftype=nofile bufhidden=hide noswapfile")
