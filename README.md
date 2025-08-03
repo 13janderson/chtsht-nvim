@@ -13,8 +13,10 @@ Default keymap is `<leader>sc` for [S]earch [C]heat.
     dependencies = {
       'nvim-telescope/telescope.nvim',
     },
+    -- Optional setup call to change default keymap behaviour
+    -- default is <leader>sc when nothing is passed
     config = function()
-      require("chtsht").setup()
+      require("chtsht").setup("<leader>ch")
     end
   },
 ```
