@@ -9,7 +9,7 @@ Default keymap is `<leader>sc` for [S]earch [C]heat.
 ## Lazy
 ```lua
   {
-    "13janderson/chtsht-nvim",
+-   "13janderson/chtsht.nvim",
     dependencies = {
       'nvim-telescope/telescope.nvim',
     },
